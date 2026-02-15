@@ -18,11 +18,21 @@ Using the WLASL video dataset, alongside MediaPipe for precise hand-landmark and
 # Week 3
 - [Week 3 Slides](https://docs.google.com/presentation/d/1AVtqcNsD8Uw9kVlnnCw_Dvl9rETAWDoTYzptZpswKXc/edit?usp=drive_link)
 
+# Week 4
+- [Week 4 Reading](https://www.handspeak.com/learn/98/)
+- [Week 4 Slides](https://docs.google.com/presentation/d/1z2I8vZRb1QiWqPLZIYbeTonWW0ZZw4xAj_oPC-LuPV8/edit?usp=sharing)
+- [Week 4 Notebook](https://colab.research.google.com/github/MichiganDataScienceTeam/W26-Sign-Language-Translator/blob/main/Week%204/week4_wlasl.ipynb)
+- Dataset and starter code: [wlasl_week4.zip](https://drive.google.com/file/d/15l1LFlF9gTqms8ufQYqA1ry_qoWlOXVL/view?usp=sharing)
+- [Form for sharing results](https://docs.google.com/forms/d/e/1FAIpQLSell28hoohp7f9UpNQgXAbUgE-dG5ll6G1uaZ5dlusEZlQRJg/viewform?usp=sharing&ouid=113884584305464810417)
+
+# Week 5
+- [asl_glosses.zip](https://drive.google.com/file/d/1YQHooWEJyw-4aTZhRpFPN9TOH95Xj61w/view?usp=sharing)
+
 # Google Colab Setup Guide
 
 Start by uploading your notebook to Google [Colab](https://colab.research.google.com/). You can also access the notebook through Colab via the following link:
 
-<a href="https://colab.research.google.com/github/MichiganDataScienceTeam/W26-Sign-Language-Translator/blob/main/Week%203/week3_wlasl.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+<a href="https://colab.research.google.com/github/MichiganDataScienceTeam/W26-Sign-Language-Translator/blob/main/Week%204/week4_wlasl.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 On the top left of your screen, click "File > Save as copy to Drive" or click "Copy to Drive" so that you can save your changes.
 
