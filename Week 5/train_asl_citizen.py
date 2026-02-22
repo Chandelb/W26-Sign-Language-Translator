@@ -14,7 +14,7 @@ from collections import Counter
 from pathlib import Path
 from torch.utils.data import Dataset, DataLoader
 
-from lstm_model import Video_LSTM_morelayers
+from lstm_model import Video_LSTM
 from training   import train_model, visualize_results
 
 
@@ -104,7 +104,7 @@ def train_asl_citizen(
 
     train_loader, val_loader = get_dataloaders(processed_dir)
 
-    model = Video_LSTM_morelayers(
+    model = Video_LSTM(
         hidden_size=hidden_size,
         dropout=dropout,
         num_layers=n_layers,
