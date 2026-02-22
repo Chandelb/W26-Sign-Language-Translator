@@ -26,7 +26,7 @@ from pathlib import Path
 from collections import deque
 
 from asl_citizen_processor import Extractor, FEATURE_DIM
-from how2sign.lstm_model import Video_LSTM_morelayers
+from lstm_model import Video_LSTM
 
 
 # ─── states ────────────────────────────────────────────────────────────────────
@@ -38,7 +38,7 @@ RECORDING  = "recording"
 # ─── model helpers ─────────────────────────────────────────────────────────────
 
 def load_model(model_path, num_classes, hidden_size, n_layers, dropout, feature_dim, device):
-    model = Video_LSTM_morelayers(
+    model = Video_LSTM(
         hidden_size=hidden_size,
         dropout=dropout,
         num_layers=n_layers,
