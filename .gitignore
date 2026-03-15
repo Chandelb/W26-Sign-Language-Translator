@@ -2,4 +2,5 @@
 .venv
 .DS_Store
 __pycache__
+sign_language_translator
 *.pth
